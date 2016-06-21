@@ -1,10 +1,10 @@
 # config valid only for current version of Capistrano
 
 
-lock '3.4.0'
+lock '3.5.0'
 
 set :application, 'Brio'
-set :repo_url, 'git@github.com:nagella477/brio.git' # Edit this to match your repository
+set :repo_url, 'git@github.com:nagella477/Brio.git' # Edit this to match your repository
 set :branch, :master
 set :deploy_to, '/home/deploy/brio'
 set :pty, true
